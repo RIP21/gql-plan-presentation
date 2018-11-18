@@ -712,7 +712,7 @@ export default class Presentation extends React.Component {
             <br />
             <br />
             REST is hard and complex thing to make it right, requires a lot of efforts that we
-            better spent on building better experiences for our users.
+            better spend on building better experiences for our users.
             <br />
             <br />
             We will and should continue to use both of them.
