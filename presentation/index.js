@@ -80,6 +80,21 @@ export default class Presentation extends React.Component {
         contentHeight={1000}
       >
         <Slide>
+          <Heading textColor="darkGrey" size={6}>
+            Alt + Shift + P - Presenter mode
+          </Heading>
+          <Heading textColor="darkGrey" size={6}>
+            Alt + Shift + O - Preview mode
+          </Heading>
+          <Heading textColor="darkGrey" size={6}>
+            Space or => - Next slide
+          </Heading>
+          <Heading textColor="darkGrey" size={6}>
+            Space + Shift or &lt;= - Previous slide
+          </Heading>
+        </Slide>
+
+        <Slide>
           <Heading textColor="purple" textSize={120}>
             Hi! 👋
           </Heading>
