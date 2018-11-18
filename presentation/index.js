@@ -80,7 +80,9 @@ export default class Presentation extends React.Component {
         contentHeight={1000}
       >
         <Slide>
-          <Heading textColor="purple" textSize={120}>Hi! 👋</Heading>
+          <Heading textColor="purple" textSize={120}>
+            Hi! 👋
+          </Heading>
         </Slide>
 
         <Slide>
@@ -88,7 +90,7 @@ export default class Presentation extends React.Component {
         </Slide>
 
         <Slide>
-          <Heading textColor={"purple"}>Thats's the question</Heading>
+          <Heading textColor={"purple"}>That's the question</Heading>
         </Slide>
 
         <Slide>
@@ -100,12 +102,14 @@ export default class Presentation extends React.Component {
         </Slide>
 
         <Slide>
-          <Heading textColor={"blue"}>Is possible to integrate at all in our fast paced environment?</Heading>
+          <Heading textColor={"blue"}>
+            Is possible to integrate it at all in our fast paced environment?
+          </Heading>
         </Slide>
 
         <Slide>
           <Heading size={2} textColor={"blue"}>
-            All those questions have been circulating in my brain
+            All these questions have been circulating in my brain
           </Heading>
           <Appear transitionDuration={1000}>
             <div>
@@ -328,7 +332,7 @@ export default class Presentation extends React.Component {
           <Appear>
             <div>
               <Heading textColor="darkGrey" size={6} margin={36}>
-                You know what you've get
+                You know what you'll get
               </Heading>
               <Heading textColor="darkGrey" size={6} margin={36}>
                 You get autocomplete and inline suggestions
@@ -401,22 +405,22 @@ export default class Presentation extends React.Component {
             Schema first approach
           </Heading>
           <Appear>
-            <Heading textColor="darkGrey" size={6} margin={36}>
+            <Heading textColor="darkGrey" textAlign='left' size={6} margin={36}>
               1. Describe queries, mutations, subscriptions and types in GraphQL schema
             </Heading>
           </Appear>
           <Appear>
-            <Heading textColor="darkGrey" size={6} margin={36}>
+            <Heading textColor="darkGrey" textAlign='left' size={6} margin={36}>
               2. Run codegen to generate Server and Client side types/helpers
             </Heading>
           </Appear>
           <Appear>
-            <Heading textColor="darkGrey" size={6} margin={36}>
+            <Heading textColor="darkGrey" textAlign='left' size={6} margin={36}>
               3. Implement fully typed server resolvers
             </Heading>
           </Appear>
           <Appear>
-            <Heading textColor="darkGrey" size={6} margin={36}>
+            <Heading textColor="darkGrey" textAlign='left' size={6} margin={36}>
               4. Use generated apollo helpers in client to get data/mutation functions
             </Heading>
           </Appear>
@@ -597,6 +601,7 @@ export default class Presentation extends React.Component {
             Giving MUCH more in return
           </Heading>
         </Slide>
+
         <Slide>
           <Heading textColor="purple" size={4} margin={36}>
             Frontend devs. Remeber writing client side caching, optimistic responses, loading
@@ -630,7 +635,7 @@ export default class Presentation extends React.Component {
 
         <Slide>
           <Heading textColor="purple" size={2} margin={36}>
-            Here is the compaines using it.
+            Here are the compaines using it.
           </Heading>
         </Slide>
 
@@ -710,7 +715,7 @@ export default class Presentation extends React.Component {
             better spent on building better experiences for our users.
             <br />
             <br />
-            We, will and should continue to use both of them.
+            We will and should continue to use both of them.
             <br />
             <br />
             Right tool, for right case.
@@ -723,7 +728,7 @@ export default class Presentation extends React.Component {
 
         <Slide>
           <Heading textSize={120} textColor="blue">
-            Thanks! 🙏
+            Thanks! 😇
           </Heading>
         </Slide>
       </Deck>
