@@ -36,6 +36,7 @@ const theme = createTheme(
     purple: "#EB008D",
     blue: "#0075EB",
     darkGrey: "#CED5DC",
+    quaternary: "#EB008D"
   },
   {
     primary: "Montserrat",
@@ -410,7 +411,7 @@ export default class Presentation extends React.Component {
           </Heading>
           <Appear>
             <Heading size={3} textColor="darkGrey">
-              What about AUTOMATICALLY?
+              What about "AUTOMATICALLY"?
             </Heading>
           </Appear>
         </Slide>
