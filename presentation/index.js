@@ -36,7 +36,7 @@ const theme = createTheme(
     purple: "#EB008D",
     blue: "#0075EB",
     darkGrey: "#CED5DC",
-    quaternary: "#EB008D"
+    quaternary: "#EB008D",
   },
   {
     primary: "Montserrat",
@@ -421,22 +421,22 @@ export default class Presentation extends React.Component {
             Schema first approach
           </Heading>
           <Appear>
-            <Heading textColor="darkGrey" textAlign='left' size={6} margin={36}>
+            <Heading textColor="darkGrey" textAlign="left" size={6} margin={36}>
               1. Describe queries, mutations, subscriptions and types in GraphQL schema
             </Heading>
           </Appear>
           <Appear>
-            <Heading textColor="darkGrey" textAlign='left' size={6} margin={36}>
+            <Heading textColor="darkGrey" textAlign="left" size={6} margin={36}>
               2. Run codegen to generate Server and Client side types/helpers
             </Heading>
           </Appear>
           <Appear>
-            <Heading textColor="darkGrey" textAlign='left' size={6} margin={36}>
+            <Heading textColor="darkGrey" textAlign="left" size={6} margin={36}>
               3. Implement fully typed server resolvers
             </Heading>
           </Appear>
           <Appear>
-            <Heading textColor="darkGrey" textAlign='left' size={6} margin={36}>
+            <Heading textColor="darkGrey" textAlign="left" size={6} margin={36}>
               4. Use generated apollo helpers in client to get data/mutation functions
             </Heading>
           </Appear>
@@ -620,14 +620,31 @@ export default class Presentation extends React.Component {
 
         <Slide>
           <Heading textColor="purple" size={4} margin={36}>
-            Frontend devs. Remeber writing client side caching, optimistic responses, loading
+            Frontend devs. Remember writing client side caching, optimistic responses, loading
             states, cache invalidation etc.
           </Heading>
           <Heading textColor="blue" size={4} margin={36}>
             Do you want to write it again?
           </Heading>
           <Heading textColor="purple" size={4} margin={36}>
-            Again becasue REST is not a spec, and every new REST is NEW. And require new ad-hoc code
+            Again, because REST is not a spec, and every new REST is NEW and require new ad-hoc code
+          </Heading>
+        </Slide>
+
+        <Slide>
+          <Heading textColor="darkGrey" margin={36}>
+            Testing?
+          </Heading>
+          <Heading textColor="blue" size={4} margin={36}>
+            Backend - testing resolvers is as simple as test any async function that calls faked
+            endpoint.
+          </Heading>
+          <Heading textColor="purple" size={4} margin={36}>
+            Frontend - MockedProvider prepacked component alongside
+            with rich docs of react-apollo
+          </Heading>
+          <Heading textColor="darkGrey" size={6} margin={36}>
+            Probably tests boilerplate may be generated automatically too
           </Heading>
         </Slide>
 
@@ -686,6 +703,46 @@ export default class Presentation extends React.Component {
         <Slide>
           <Heading textColor="blue" margin={36}>
             And many more...
+          </Heading>
+        </Slide>
+
+        <Slide>
+          <Heading textColor="purple" margin={36}>
+            State of Javascript 2018
+          </Heading>
+          <Heading textColor="darkGrey" size={6} margin={36}>
+            Last polls showed two years in the row GraphQL as the{" "}
+            <S textFont="primary" type="undeline" textColor={"purple"} bold>
+              most "want to learn"
+            </S>{" "}
+            technology with crazy
+          </Heading>
+          <Heading size={3} textColor="blue">
+            87.7%
+          </Heading>
+          <Heading textColor="darkGrey" size={6} margin={36}>
+            And also got{" "}
+            <S textFont="primary" type="undeline" textColor={"purple"} bold>
+              Highest Satisfaction
+            </S>{" "}
+            award in data layer category from actual users with promising
+          </Heading>
+          <Heading size={3} textColor="blue">
+            94.2%
+          </Heading>
+          <Heading textColor="darkGrey" size={6} margin={36}>
+            And only{" "}
+            <S textFont="primary" type="undeline" textColor={"purple"} bold>
+              1.4%
+            </S>{" "}
+            that used it will prefer not to use it again.
+          </Heading>
+          <Heading textColor="darkGrey" size={6} margin={36}>
+            In comparsion with Redux where{" "}
+            <S textFont="primary" type="undeline" textColor={"purple"} bold>
+              10.3%
+            </S>{" "}
+            of the users "would not use again"
           </Heading>
         </Slide>
 
